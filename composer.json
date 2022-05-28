@@ -1,0 +1,23 @@
+{
+    "name": "ivanvoitovych/redis-repository",
+    "description": "Redis repository implementation.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "DotDi\\": "src/RedisDb/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "Tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ivan Voitovych",
+            "email": "col606v@gmail.com"
+        }
+    ],
+    "require": {}
+}
